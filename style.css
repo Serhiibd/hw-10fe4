@@ -1,0 +1,45 @@
+.message {
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    height: 125px;
+    width: 350px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.animation-element {
+  width: 60px;
+  height: 60px;
+  background: cornflowerblue;
+  margin: 20px;
+  position: relative;
+  display: none;
+}
+
+.game-area {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #333;
+  position: relative;
+  margin-top: 20px;
+  display: none;
+  pointer-events: none;
+}
+
+.target {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+.score-box {
+  display: none;
+  pointer-events: none;
+}

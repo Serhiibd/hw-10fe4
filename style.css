@@ -43,3 +43,7 @@
   display: none;
   pointer-events: none;
 }
+
+.time-wrap {
+    display: none;
+}

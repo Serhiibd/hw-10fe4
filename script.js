@@ -127,6 +127,10 @@ const timeInput = document.querySelector(".time-input");
 const timeStart = document.querySelector(".time-start");
 const timeLeft = document.querySelector(".time-left");
 
+startFourth.addEventListener("click", () => {
+  timeWrap.style.display = "block";
+});
+
 timeStart.addEventListener("click", () => {
   let secLenght = Number(timeInput.value);
   timeLeft.textContent = secLenght;
